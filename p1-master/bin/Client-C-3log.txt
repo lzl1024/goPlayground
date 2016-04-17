@@ -1,0 +1,37 @@
+Client-C-3 23:06:12.072816 lspConn.go:193: client Get new connID 3
+Client-C-3 23:06:12.072840 lspConn.go:215: Sliding Window and new startId 1 0
+Client-C-3 23:06:12.072847 lspConn.go:223: Window status 0 1
+Client-C-3 23:06:12.072897 lspConn.go:234: buffer move 0 0 <nil>
+Client-C-3 23:06:12.072972 lspConn.go:64: Create msg  [Data 3 1 {"Type":1,"Data":"1234","Lower":0,"Upper":1500000,"Hash":0,"Nonce":0}]
+Client-C-3 23:06:12.072986 lspConn.go:223: Window status 0 1
+Client-C-3 23:06:12.072997 lspConn.go:234: buffer move 1 1 [Data 3 1 {"Type":1,"Data":"1234","Lower":0,"Upper":1500000,"Hash":0,"Nonce":0}]
+Client-C-3 23:06:12.073049 lspConn.go:86: send msg to server [Data 3 1 {"Type":1,"Data":"1234","Lower":0,"Upper":1500000,"Hash":0,"Nonce":0}] 0
+Client-C-3 23:06:12.073269 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:12.073292 lspConn.go:215: Sliding Window and new startId 1 1
+Client-C-3 23:06:12.073299 lspConn.go:223: Window status 1 1
+Client-C-3 23:06:12.073332 lspConn.go:234: buffer move 0 0 <nil>
+Client-C-3 23:06:13.594612 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:13.594654 lspConn.go:155: Too old msg, Ingore, current sendwindowStartId is 1 1
+Client-C-3 23:06:14.073317 client_impl.go:71: Start epoch...
+Client-C-3 23:06:14.073447 lspConn.go:86: send msg to server [Ack 3 0] 0
+Client-C-3 23:06:15.593381 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:15.593436 lspConn.go:155: Too old msg, Ingore, current sendwindowStartId is 1 1
+Client-C-3 23:06:16.077278 client_impl.go:71: Start epoch...
+Client-C-3 23:06:16.077499 lspConn.go:86: send msg to server [Ack 3 0] 0
+Client-C-3 23:06:17.595994 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:17.596053 lspConn.go:155: Too old msg, Ingore, current sendwindowStartId is 1 1
+Client-C-3 23:06:18.074460 client_impl.go:71: Start epoch...
+Client-C-3 23:06:18.074566 lspConn.go:86: send msg to server [Ack 3 0] 0
+Client-C-3 23:06:19.595932 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:19.595977 lspConn.go:155: Too old msg, Ingore, current sendwindowStartId is 1 1
+Client-C-3 23:06:20.073713 client_impl.go:71: Start epoch...
+Client-C-3 23:06:20.073873 lspConn.go:86: send msg to server [Ack 3 0] 0
+Client-C-3 23:06:21.596113 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:21.596166 lspConn.go:155: Too old msg, Ingore, current sendwindowStartId is 1 1
+Client-C-3 23:06:22.077089 client_impl.go:71: Start epoch...
+Client-C-3 23:06:22.077183 lspConn.go:86: send msg to server [Ack 3 0] 0
+Client-C-3 23:06:23.596105 client_impl.go:108: Rcv msg  [Ack 3 1] 0
+Client-C-3 23:06:23.596154 lspConn.go:155: Too old msg, Ingore, current sendwindowStartId is 1 1
+Client-C-3 23:06:23.627357 client_impl.go:108: Rcv msg  [Data 3 1 {"Type":2,"Data":"","Lower":0,"Upper":0,"Hash":31389187134231,"Nonce":1072985}] 0
+Client-C-3 23:06:23.627392 lspConn.go:247: Send msg for global read [Data 3 1 {"Type":2,"Data":"","Lower":0,"Upper":0,"Hash":31389187134231,"Nonce":1072985}]
+Client-C-3 23:06:23.627421 lspConn.go:86: send msg to server [Ack 3 1] 0
